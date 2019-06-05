@@ -30,9 +30,9 @@ clear.addEventListener('click', () => {
     lsdata.innerHTML = "";
 })
 
-var _lsTotal = 0;
-var _xLen;
-var _x;
+let _lsTotal = 0;
+let _xLen;
+let _x;
 
 lsmemory.addEventListener('click', () => {
     for (_x in localStorage){ 
